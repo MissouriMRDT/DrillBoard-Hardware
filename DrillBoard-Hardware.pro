@@ -1,4 +1,4 @@
-update=3/4/2018 5:56:20 PM
+update=3/11/2018 3:14:33 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../KiCad-Libraries-Hardware/Device
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,12 +61,13 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-Actives/MRDT-Actives
-LibName34=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-Connectors/MRDT-Connectors
-LibName35=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-Drill_Holes/MRDT-Drill_Holes
-LibName36=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-Headers/MRDT-Headers
-LibName37=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-ICs/MRDT-ICs
-LibName38=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-Passives/MRDT-Passives
-LibName39=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-Shields/MRDT-Shields
-LibName40=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-Silkscreens/MRST-Silkscreens
-LibName41=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-Switches/MRDT-Switches
+LibName33=MRDT-Actives
+LibName34=MRDT-Connectors
+LibName35=MRDT-Devices
+LibName36=MRDT-Drill_Holes
+LibName37=MRDT-Headers
+LibName38=MRDT-ICs
+LibName39=MRDT-Passives
+LibName40=MRDT-Shields
+LibName41=MRDT-Silkscreens
+LibName42=MRDT-Switches
