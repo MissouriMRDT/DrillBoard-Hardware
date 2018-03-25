@@ -418,7 +418,7 @@ U 1 1 5AA67B2B
 P 9700 4900
 F 0 "U7" H 9750 4850 60  0001 C CNN
 F 1 "Picoblade-3" H 9750 5250 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53047-0310_03x1.25mm_Straight" H 9700 4900 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_3_Vertical" H 9700 4900 60  0001 C CNN
 F 3 "" H 9700 4900 60  0001 C CNN
 	1    9700 4900
 	1    0    0    -1  
@@ -429,7 +429,7 @@ U 1 1 5AA67B79
 P 9700 5350
 F 0 "U8" H 9750 5300 60  0001 C CNN
 F 1 "Picoblade-3" H 9750 5700 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53047-0310_03x1.25mm_Straight" H 9700 5350 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_3_Vertical" H 9700 5350 60  0001 C CNN
 F 3 "" H 9700 5350 60  0001 C CNN
 	1    9700 5350
 	1    0    0    -1  
