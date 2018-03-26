@@ -234,7 +234,7 @@ Wire Wire Line
 	2000 2450 2000 1800
 Connection ~ 2000 2450
 Wire Wire Line
-	2450 2550 2450 2750
+	2450 2550 2450 3000
 Wire Wire Line
 	2450 2750 2600 2750
 Connection ~ 2450 2550
@@ -418,7 +418,7 @@ U 1 1 5AA67B2B
 P 9700 4900
 F 0 "U7" H 9750 4850 60  0001 C CNN
 F 1 "Picoblade-3" H 9750 5250 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53047-0310_03x1.25mm_Straight" H 9700 4900 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_3_Vertical" H 9700 4900 60  0001 C CNN
 F 3 "" H 9700 4900 60  0001 C CNN
 	1    9700 4900
 	1    0    0    -1  
@@ -429,7 +429,7 @@ U 1 1 5AA67B79
 P 9700 5350
 F 0 "U8" H 9750 5300 60  0001 C CNN
 F 1 "Picoblade-3" H 9750 5700 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53047-0310_03x1.25mm_Straight" H 9700 5350 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_3_Vertical" H 9700 5350 60  0001 C CNN
 F 3 "" H 9700 5350 60  0001 C CNN
 	1    9700 5350
 	1    0    0    -1  
@@ -695,4 +695,33 @@ Connection ~ 2000 1300
 Connection ~ 1750 1300
 Connection ~ 1500 1300
 Connection ~ 1250 1300
+$Comp
+L R R11
+U 1 1 5AB84E9F
+P 2700 3000
+F 0 "R11" V 2600 3000 50  0000 C CNN
+F 1 "330" V 2700 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2630 3000 50  0001 C CNN
+F 3 "" H 2700 3000 50  0001 C CNN
+	1    2700 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 5AB850F4
+P 3050 3000
+F 0 "D1" H 3050 3100 50  0000 C CNN
+F 1 "LED" H 3050 2900 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H 3050 3000 50  0001 C CNN
+F 3 "" H 3050 3000 50  0001 C CNN
+	1    3050 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 3000 2550 3000
+Connection ~ 2450 2750
+Wire Wire Line
+	2850 3000 2900 3000
+Text GLabel 3200 3000 2    60   UnSpc ~ 0
+GND
 $EndSCHEMATC
